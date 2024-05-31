@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(206, 159, 218);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 442;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 95.7;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(57, 7, 57);
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+
+}
+.intro{
+    text-align: center;
+    color: rgb(57, 7, 57);
+    padding: 20px;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image div {
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    flex-basis: 20%;
+    color: rgb(57, 7, 57);
+    font-size: 14pt;
+    font-weight: 400;
+}
